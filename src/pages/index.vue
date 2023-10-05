@@ -9,20 +9,25 @@ title: About
         <figure><img src="../assets/banner.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h1 class="card-title">Welcome!</h1>
-          <p>Join the mailing list to keep up to date with the latest news!</p>
-          <div class="card-actions justify-center my-8">
-            <input
-              class="inline-block input input-bordered w-2/3"
-              placeholder="you@mail.com"
-            />
-            <button class="inline-block btn btn-primary">Join!</button>
-          </div>
+          <p>
+            We are building a community of software developers and IT
+            proessionals intent on changing the way we build and deploy software
+            for a sustainable future.
+          </p>
         </div>
       </div>
 
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title">Next Event</h1>
+          <h1 class="card-title mb-8">Next Event</h1>
+          <h2 class="font-semibold">
+            <a
+              class="link link-primary"
+              href="https://www.meetup.com/gsf-brighton"
+            >
+              Environmental Impact of Hyped Technologies - Nov 2023
+            </a>
+          </h2>
         </div>
       </div>
 
@@ -49,11 +54,49 @@ title: About
 
       <div class="card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title">Resources</h1>
+          <h1 class="card-title mb-8">Resources</h1>
+          <ul>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
+                href="https://greensoftware.foundation"
+              >
+                Green Software Foundation
+              </a>
+            </li>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
+                href="https://www.thegreenwebfoundation.org"
+              >
+                Green Web Foundation
+              </a>
+            </li>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
+                href="https://climateaction.tech"
+              >
+                ClimateAction.Tech
+              </a>
+            </li>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
+                href="https://github.com/Green-Software-Foundation/awesome-green-software"
+              >
+                Awesome Green Software
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <div class="card bg-base-100 shadow-xl">
+      <!-- <div class="card bg-base-100 shadow-xl">
         <div class="card-body">
           <h1 class="card-title">Open Source</h1>
           <p class="mt-4 mb-8">
@@ -71,7 +114,7 @@ title: About
         <div class="card-body">
           <h1 class="card-title">Tools</h1>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
