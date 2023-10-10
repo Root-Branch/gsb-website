@@ -1,5 +1,4 @@
 <page>
-title: About
 </page>
 
 <template>
