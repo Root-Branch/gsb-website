@@ -3,13 +3,13 @@ title: About
 </page>
 
 <template>
-  <div class="flex justify-center m-8">
-    <div class="w-2/3 grid grid-cols-2 gap-4">
+  <div class="flex justify-center m-4 md:m-8">
+    <div class="max-w-5xl grid grid-cols-2 gap-4">
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <figure><img src="../assets/banner.png" alt="Shoes" /></figure>
         <div class="card-body">
-          <h1 class="card-title">Welcome!</h1>
-          <p>
+          <h1 class="card-title text-2xl md:text-3xl">Welcome!</h1>
+          <p class="text-lg md:text-xl mt-4">
             We are building a community of software developers and IT
             proessionals intent on changing the way we build and deploy software
             for a sustainable future.
@@ -19,43 +19,49 @@ title: About
 
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title mb-8">Next Event</h1>
-          <h2 class="font-semibold">
+          <h1 class="card-title text-2xl md:text-3xl">Next Event</h1>
+          <div class="text-lg md:text-xl mt-4">
             <a
               class="link link-primary"
               href="https://www.meetup.com/gsf-brighton"
             >
-              Environmental Impact of Hyped Technologies - Nov 2023
+              Environmental Impact of AI
             </a>
-          </h2>
+            <p class="mt-2">18:00 Nov 29th, 2023</p>
+            <p>Wrap, 83 Queens Rd, Brighton BN1 3XE</p>
+          </div>
         </div>
       </div>
 
-      <div class="card bg-base-100 shadow-xl">
+      <div class="col-span-2 md:col-span-1 card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title">Want to speak?</h1>
-          <p class="mt-4 mb-8">
-            If you want to give your own talk at GSF Brighton please get in
-            touch with us.
-          </p>
+          <h1 class="card-title text-2xl md:text-3xl">Want to speak?</h1>
+          <div class="text-lg md:text-xl mt-4">
+            <p class="mb-2">
+              If you want to give your own talk at GSF Brighton please get in
+              touch with us.
+            </p>
 
-          <a
-            class="link link-primary inline"
-            href="mailto:oliver@paperplane.software"
-          >
-            oliver@paperplane.software
-          </a>
-          <span>or</span>
-          <a class="link link-primary inline" href="mailto:adam@cluelight.com">
-            adam@cluelight.com
-          </a>
+            <a
+              class="link link-primary inline"
+              href="mailto:oliver@paperplane.software"
+            >
+              oliver@paperplane.software
+            </a>
+            <a
+              class="link link-primary inline"
+              href="mailto:adam@cluelight.com"
+            >
+              adam@cluelight.com
+            </a>
+          </div>
         </div>
       </div>
 
-      <div class="card bg-base-100 shadow-xl">
+      <div class="col-span-2 md:col-span-1 card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title mb-8">Resources</h1>
-          <ul>
+          <h1 class="card-title text-2xl md:text-3xl">Resources</h1>
+          <ul class="text-lg md:text-xl mt-4">
             <li class="mb-2">
               <a
                 class="link link-primary"
