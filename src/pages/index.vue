@@ -8,14 +8,36 @@
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <figure><img src="../assets/banner.png" alt="Shoes" /></figure>
         <div class="card-body">
-          <!--h1 class="card-title text-2xl md:text-3xl">Welcome!</h1-->
-          <p class="font-semibold text-center text-lg md:text-xl mt-4">
-            A community dedicated to digital sustainability. 
-          </p>
+          <h1 class="text-2xl md:text-3xl mt-4 text-center">
+            A 
+            <span class="border-emerald-400 border-b-4">
+              community
+            </span>
+            dedicated to 
+            <span class="border-emerald-400 border-b-4">
+              digital sustainability. 
+            </span>
+          </h1>
           <p class="font-thin text-center text-lg md:text-xl mt-4">
             We are exploring how we design, develop and deploy software to reduce the impact technology has on the environment.
-            We are proud to be supported by the Green Software Foundation and Silicon Brighton.
+            We are proud to be supported by the 
+            <a class="border-emerald-400 border-b-2" href="https://greensoftware.foundation">
+              Green Software Foundation
+            </a>
+            and
+            <a class="border-emerald-400 border-b-2" href="https://siliconbrighton.com">
+              Silicon Brighton.
+            </a>
           </p>
+          <div class="mb-8 md:mb-8 mt-8 md:mt-8 mx-auto">
+
+            <a 
+              class="button-green"
+              target="_blank"
+              href="https://meetup.com/gsf-brighton"
+              >Join us</a
+            >
+          </div>
         </div>
       </div>
 
@@ -134,6 +156,15 @@
                 Podcast - Environment Variables
               </a>
             </li>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
+                href="https://greenseo.org/"
+              >
+                Community - Green SEO
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -164,29 +195,24 @@
                 <img src="../assets/WRAP+Primary+Logo+Pink+sRGB.png" alt="wrap-logo" width="60" height="60"/>
               </a>
             </div>
+            <div>
+              <a href="https://www.projectsclub.co.uk/" target="_blank">
+                <img src="../assets/projects-logo.png" alt="projects-logo" width="60" height="60"/>
+              </a>
+            </div>
+            <div>
+              <a href="https://greenseo.org" target="_blank">
+                <img src="../assets/greenseo-logo-header.png" alt="greenseo-logo" width="120" height="60" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- <div class="card bg-base-100 shadow-xl">
-        <div class="card-body">
-          <h1 class="card-title">Open Source</h1>
-          <p class="mt-4 mb-8">
-            Below is a list of open source project you can check out and
-            contribute to!
-          </p>
-
-          <ul>
-            <li></li>
-          </ul>
-        </div>
+      <div class="col-span-2 card bg-base-100 shadow-xl">
+        <div id="wcb" class="carbonbadge wcb-d mx-auto py-8"></div>
       </div>
 
-      <div class="card bg-base-100 shadow-xl">
-        <div class="card-body">
-          <h1 class="card-title">Tools</h1>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>
@@ -197,4 +223,9 @@
 .container {
   @apply w-2/3 mx-auto border shadow-lg;
 }
+
+.button-green {
+  @apply rounded-full border border-emerald-400 border-b-4 py-2 px-4 md:py-3 md:px-8 text-xs sm:text-sm md:text-lg hover:bg-emerald-400 hover:text-dark-content;
+}
+
 </style>

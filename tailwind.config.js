@@ -16,6 +16,13 @@ module.exports = {
   },
   theme: {
     extend: {
+      colors: {
+        light: "#f6f6f6",
+        "light-content": "#1e1e1e",
+
+        dark: "#1e1e1e",
+        "dark-content": "#f6f6f6",
+      },
       fontFamily: {
         body: "Nunito Sans",
       },
