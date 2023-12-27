@@ -3,20 +3,16 @@
 
 <template>
   <div class="flex justify-center m-4 md:m-8">
-    <div class="max-w-5xl grid grid-cols-2 gap-4">
+    <div class="max-w-6xl grid grid-cols-2 gap-4">
       
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <figure><img src="../assets/banner.png" alt="Shoes" /></figure>
         <div class="card-body">
           <h1 class="text-2xl md:text-3xl mt-4 text-center">
             A 
-            <span class="border-emerald-400 border-b-4">
-              community
-            </span>
+            <span class="border-emerald-400 border-b-4">community</span>
             dedicated to 
-            <span class="border-emerald-400 border-b-4">
-              digital sustainability. 
-            </span>
+            <span class="border-emerald-400 border-b-4">digital sustainability.</span>
           </h1>
           <p class="font-thin text-center text-lg md:text-xl mt-4">
             We are exploring how we design, develop and deploy software to reduce the impact technology has on the environment.
@@ -47,31 +43,45 @@
 
           <div class="max-w-5xl grid grid-cols-2">
 
-            <div class="col-span-2 md:col-span-1">
-              <div class="text-lg md:text-xl mt-4">
-                <a class="link link-primary" href="https://www.meetup.com/gsf-brighton">
-                  The Environmental Impact of AI
-                </a>
-                <p class="font-thin">Roundtable Discussion</p>
-                <p>18:00 Weds Jan 24th, 2024</p>
-                <p> Wrap, 83 Queens Rd, Brighton BN1 3XE </p>
+            <div class="col-span-2 md:col-span-1 card lg:card-side bg-base-100 shadow-xl m-2">
+              <figure><img src="../assets/event-jan.png" alt="asim-img" class="w-full h-full"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
+                <span class="font-thin">A roundtable discussion</span>
+                <p>Weds 24th January 2024</p>
+                <p class="font-thin">
+                </p>
+                <div class="card-actions justify-end">
+                  <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join Waitlist</a>
+                </div>
               </div>
             </div>
-            
-            <div class="col-span-2 md:col-span-1">
-              <div class="text-lg md:text-xl mt-4">
-                <a class="link link-primary" href="https://www.meetup.com/gsf-brighton">
-                  Measuring Software Emissions
-                </a>
+
+            <div class="col-span-2 md:col-span-1 card lg:card-side bg-base-100 shadow-xl m-2">
+              <figure><img src="../assets/event-feb.png" alt="asim-img" class="w-full h-full"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
+                <span class="font-thin">A roundtable discussion</span>
+                <p>Weds 7th February 2024</p>
                 <p class="font-thin">
-                  Talk: Asim Hussain (GSF Director)
                 </p>
-                <p>
-                  18:00 April 30th, 2024
+                <div class="card-actions justify-end">
+                  <a class="button-green" target="_blank" href="https://meetup.com/gsf-brighton">Attend (Free)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-2 md:col-span-1 card lg:card-side bg-base-100 shadow-xl m-2">
+              <figure><img src="../assets/asim-hussain-headshot.jpeg" alt="asim-img" class="w-full h-full"/></figure>
+              <div class="card-body">
+                <h2 class="card-title">Measuring Software Emissions</h2>
+                <span class="font-thin">Speaker: Asim Hussain</span>
+                <p>Tues 30th April 2024</p>
+                <p class="font-thin">
                 </p>
-                <p>
-                  Venue TBC
-                </p>
+                <div class="card-actions justify-end">
+                  <a class="button-green" target="_blank" href="https://meetup.com/gsf-brighton">Attend (Free)</a>
+                </div>
               </div>
             </div>
 
@@ -225,7 +235,11 @@
 }
 
 .button-green {
-  @apply rounded-full border border-emerald-400 border-b-4 py-2 px-4 md:py-3 md:px-8 text-xs sm:text-sm md:text-lg hover:bg-emerald-400 hover:text-dark-content;
+  @apply rounded-full border border-emerald-400 border-b-2 py-2 px-2 md:py-3 md:px-3 text-xs sm:text-sm md:text-lg hover:bg-emerald-400 hover:text-dark-content;
+}
+
+.button-gray {
+  @apply rounded-full border border-gray-400 border-b-4 py-2 px-2 md:py-3 md:px-3 text-xs sm:text-sm md:text-lg hover:bg-gray-400 hover:text-dark-content;
 }
 
 </style>
