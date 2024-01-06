@@ -2,7 +2,7 @@
 </page>
 
 <template>
-  <div class="flex justify-center m-4 md:m-8">
+  <div class="flex justify-center m-6 md:m-12">
     <div class="max-w-6xl grid grid-cols-2 gap-4">
       
       <div class="col-span-2 card bg-base-100 shadow-xl">
@@ -41,9 +41,9 @@
         <div class="card-body">
           <h1 class="card-title text-2xl md:text-3xl">Upcoming Events</h1>
 
-          <div class="max-w-5xl grid grid-cols-2">
+          <div class="max-w-5xl grid grid-cols-3">
 
-            <div class="col-span-2 md:col-span-1 card lg:card-side bg-base-100 shadow-xl m-2">
+            <div class="col-span-3 md:col-span-1 card bg-base-100 shadow-xl m-2">
               <figure><img src="../assets/event-jan.png" alt="asim-img" class="w-full h-full"/></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
@@ -57,7 +57,7 @@
               </div>
             </div>
 
-            <div class="col-span-2 md:col-span-1 card lg:card-side bg-base-100 shadow-xl m-2">
+            <div class="col-span-3 md:col-span-1 card bg-base-100 shadow-xl m-2">
               <figure><img src="../assets/event-feb.png" alt="asim-img" class="w-full h-full"/></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
@@ -71,7 +71,7 @@
               </div>
             </div>
 
-            <div class="col-span-2 md:col-span-1 card lg:card-side bg-base-100 shadow-xl m-2">
+            <div class="col-span-3 md:col-span-1 card bg-base-100 shadow-xl m-2">
               <figure><img src="../assets/asim-hussain-headshot.jpeg" alt="asim-img" class="w-full h-full"/></figure>
               <div class="card-body">
                 <h2 class="card-title">Measuring Software Emissions</h2>
@@ -125,6 +125,15 @@
               <a
                 class="link link-primary"
                 target="_blank"
+                href="https://greenseo.org/"
+              >
+                Green SEO (Brighton Community)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
                 href="https://greensoftware.foundation"
               >
                 Green Software Foundation
@@ -154,7 +163,7 @@
                 target="_blank"
                 href="https://github.com/Green-Software-Foundation/awesome-green-software"
               >
-                Awesome Green Software
+                Awesome Green Software (GitHub)
               </a>
             </li>
             <li class="mb-2">
@@ -163,16 +172,25 @@
                 target="_blank"
                 href="https://podcast.greensoftware.foundation/"
               >
-                Podcast - Environment Variables
+                Environment Variables (Podcast)
               </a>
             </li>
             <li class="mb-2">
               <a
                 class="link link-primary"
                 target="_blank"
-                href="https://greenseo.org/"
+                href="https://www.green-coding.berlin/"
               >
-                Community - Green SEO
+                Green Coding Berlin
+              </a>
+            </li>
+            <li class="mb-2">
+              <a
+                class="link link-primary"
+                target="_blank"
+                href="https://sdialliance.org/"
+              >
+                SDIA - Sustainable Digital Infrastructure Alliance
               </a>
             </li>
           </ul>
@@ -210,17 +228,14 @@
                 <img src="../assets/projects-logo.png" alt="projects-logo" width="60" height="60"/>
               </a>
             </div>
-            <div>
-              <a href="https://greenseo.org" target="_blank">
-                <img src="../assets/greenseo-logo-header.png" alt="greenseo-logo" width="120" height="60" />
-              </a>
-            </div>
           </div>
         </div>
       </div>
 
       <div class="col-span-2 card bg-base-100 shadow-xl">
-        <div id="wcb" class="carbonbadge wcb-d mx-auto py-8"></div>
+        <client-only>
+          <div id="wcb" class="carbonbadge wcb-d mx-auto py-8"></div>
+        </client-only>
       </div>
 
     </div>
@@ -235,11 +250,11 @@
 }
 
 .button-green {
-  @apply rounded-full border border-emerald-400 border-b-2 py-2 px-2 md:py-3 md:px-3 text-xs sm:text-sm md:text-lg hover:bg-emerald-400 hover:text-dark-content;
+  @apply rounded-full text-center border border-emerald-400 border-b-2 py-2 px-2 md:py-3 md:px-3 text-xs sm:text-sm md:text-lg hover:bg-emerald-400 hover:text-dark-content;
 }
 
 .button-gray {
-  @apply rounded-full border border-gray-400 border-b-4 py-2 px-2 md:py-3 md:px-3 text-xs sm:text-sm md:text-lg hover:bg-gray-400 hover:text-dark-content;
+  @apply rounded-full text-center border border-gray-400 border-b-4 py-2 px-2 md:py-3 md:px-3 text-xs sm:text-sm md:text-lg hover:bg-gray-400 hover:text-dark-content;
 }
 
 </style>
