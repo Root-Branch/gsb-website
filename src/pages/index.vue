@@ -6,7 +6,7 @@
     <div class="max-w-6xl grid grid-cols-2 gap-4">
 
       <div class="col-span-2 card bg-base-100 shadow-xl">
-        <figure><img src="../assets/banner.png" alt="Shoes" /></figure>
+        <figure><img src="../assets/banner.webp" alt="Shoes" /></figure>
         <div class="card-body">
           <h1 class="text-2xl md:text-3xl mt-4 text-center">
             A
@@ -40,7 +40,7 @@
           <div class="max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/event-jan.png" alt="asim-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-jan.webp" alt="asim-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
                 <span class="font-thin">A roundtable discussion</span>
@@ -55,7 +55,7 @@
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/event-feb.png" alt="asim-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-feb.webp" alt="asim-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
                 <span class="font-thin">A roundtable discussion</span>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/asim-hussain-headshot.jpeg" alt="asim-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/asim-hussain-headshot.webp" alt="asim-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Measuring Software Emissions</h2>
                 <span class="font-thin">Speaker: Asim Hussain</span>
@@ -165,28 +165,28 @@
           <div class="flex flex-wrap items-center justify-center gap-10 mt-2 md:justify-around">
             <div>
               <a href="https://greensoftware.foundation" target="_blank">
-                <img src="../assets/gruene-Software-Green-Software-Foundation.png" alt="gsf-logo" width="120"
+                <img src="../assets/gruene-Software-Green-Software-Foundation.webp" alt="gsf-logo" width="120"
                   height="60" />
               </a>
             </div>
             <div>
               <a href="https://siliconbrighton.com" target="_blank">
-                <img src="../assets/SB_B&W_RGB.png" alt="sb-logo" width="120" height="60" />
+                <img src="../assets/SB_B&W_RGB.webp" alt="sb-logo" width="120" height="60" />
               </a>
             </div>
             <div>
               <a href="https://rootandbranch.io" target="_blank">
-                <img src="../assets/Root&BranchMainLogo.png" alt="rab-logo" width="120" height="60" />
+                <img src="../assets/Root&BranchMainLogo.webp" alt="rab-logo" width="120" height="60" />
               </a>
             </div>
             <div>
               <a href="https://wrap.space" target="_blank">
-                <img src="../assets/WRAP+Primary+Logo+Pink+sRGB.png" alt="wrap-logo" width="60" height="60" />
+                <img src="../assets/WRAP+Primary+Logo+Pink+sRGB.webp" alt="wrap-logo" width="60" height="60" />
               </a>
             </div>
             <div>
               <a href="https://www.projectsclub.co.uk/" target="_blank">
-                <img src="../assets/projects-logo.png" alt="projects-logo" width="60" height="60" />
+                <img src="../assets/projects-logo.webp" alt="projects-logo" width="60" height="60" />
               </a>
             </div>
           </div>
