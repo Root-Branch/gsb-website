@@ -35,19 +35,34 @@
 
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title text-2xl md:text-3xl">Upcoming Events</h1>
+          <h1 class="card-title text-2xl md:text-3xl">Events</h1>
 
           <div class="max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/event-jan.webp" alt="asim-img" class="w-full h-full" /></figure>
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-50">
+              <figure><img src="../assets/event-jan.webp" alt="event-jan-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
                 <span class="font-thin">A roundtable discussion</span>
                 <p>Weds 24th January 2024</p>
                 <p class="font-thin">
                 </p>
-                <div class="card-actions justify-end">
+                <div class="card-actions justify-end hidden">
+                  <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join
+                    Waitlist</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-50">
+              <figure><img src="../assets/event-feb.webp" alt="event-feb-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
+                <span class="font-thin">A roundtable discussion</span>
+                <p>Weds 7th February 2024</p>
+                <p class="font-thin">
+                </p>
+                <div class="card-actions justify-end hidden">
                   <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join
                     Waitlist</a>
                 </div>
@@ -55,29 +70,29 @@
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/event-feb.webp" alt="asim-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-mar.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
-                <span class="font-thin">A roundtable discussion</span>
-                <p>Weds 7th February 2024</p>
+                <h2 class="card-title">Open Source & Sustainability</h2>
+                <span class="font-thin">Speakers: David Rees & James Camilleri (Sustainable Tech Team, Scott Logic)</span>
+                <p>Weds 20th March 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end">
-                  <a class="button-green" target="_blank" href="https://meetup.com/gsf-brighton">Attend (Free)</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298868649/">Attend (Free)</a>
                 </div>
               </div>
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/asim-hussain-headshot.webp" alt="asim-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-apr-asim-headshot.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Measuring Software Emissions</h2>
-                <span class="font-thin">Speaker: Asim Hussain</span>
+                <h2 class="card-title">Measuring Software Emissions with Impact Framework</h2>
+                <span class="font-thin">Speaker: Asim Hussain (Executive Director, Green Software Foundation)</span>
                 <p>Tues 30th April 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end">
-                  <a class="button-green" target="_blank" href="https://meetup.com/gsf-brighton">Attend (Free)</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298882475/">Attend (Free)</a>
                 </div>
               </div>
             </div>
@@ -187,6 +202,11 @@
             <div>
               <a href="https://www.projectsclub.co.uk/" target="_blank">
                 <img src="../assets/projects-logo.webp" alt="projects-logo" width="60" height="60" />
+              </a>
+            </div>
+            <div>
+              <a href="https://runwayea.st/" target="_blank">
+                <img src="../assets/logo-rwe.webp" alt="runwayeast-logo" width="120" height="60"  />
               </a>
             </div>
           </div>
