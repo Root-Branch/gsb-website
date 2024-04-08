@@ -119,7 +119,7 @@
                 <p>Thurs 25th July 2024</p>
                 <p class="font-thin">
                 </p>
-                <div class="card-actions justify-end">
+                <div class="card-actions justify-end hidden">
                   <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton">Attend (Free)</a>
                 </div>
               </div>
