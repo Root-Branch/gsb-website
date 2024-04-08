@@ -69,7 +69,7 @@
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-50">
               <figure><img src="../assets/event-mar.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Open Source & Sustainability</h2>
@@ -77,7 +77,7 @@
                 <p>Weds 20th March 2024</p>
                 <p class="font-thin">
                 </p>
-                <div class="card-actions justify-end">
+                <div class="card-actions justify-end hidden">
                   <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298868649/">Attend (Free)</a>
                 </div>
               </div>
@@ -93,6 +93,34 @@
                 </p>
                 <div class="card-actions justify-end">
                   <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298882475/">Attend (Free)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 1</h2>
+                <span class="font-thin">Workshop - Venue TBC</span>
+                <p>Weds 19th June 2024</p>
+                <p class="font-thin">
+                </p>
+                <div class="card-actions justify-end hidden">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton">Attend (Free)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 2</h2>
+                <span class="font-thin">Workshop - Venue TBC</span>
+                <p>Thurs 25th July 2024</p>
+                <p class="font-thin">
+                </p>
+                <div class="card-actions justify-end">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton">Attend (Free)</a>
                 </div>
               </div>
             </div>
@@ -156,6 +184,11 @@
             <li class="mb-2">
               <a class="link link-primary" target="_blank" href="https://podcast.greensoftware.foundation/">
                 Environment Variables (Podcast)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://www.oreilly.com/library/view/building-green-software/9781098150617/">
+                Building Green Software (Book)
               </a>
             </li>
             <li class="mb-2">
