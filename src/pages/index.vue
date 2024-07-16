@@ -6,7 +6,7 @@
     <div class="max-w-6xl grid grid-cols-2 gap-4">
 
       <div class="col-span-2 card bg-base-100 shadow-xl">
-        <figure><img src="../assets/banner.webp" alt="Shoes" /></figure>
+        <figure><img src="../assets/bannerSB.webp" alt="Green Software Brighton" /></figure>
         <div class="card-body">
           <h1 class="text-2xl md:text-3xl mt-4 text-center">
             A
@@ -39,7 +39,7 @@
 
           <div class="max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-50">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
               <figure><img src="../assets/event-jan.webp" alt="event-jan-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
@@ -54,7 +54,7 @@
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-50">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
               <figure><img src="../assets/event-feb.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
@@ -69,7 +69,7 @@
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-50">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
               <figure><img src="../assets/event-mar.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Open Source & Sustainability</h2>
@@ -77,13 +77,14 @@
                 <p>Weds 20th March 2024</p>
                 <p class="font-thin">
                 </p>
+                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=HwB6wO97dr8">Watch</a>
                 <div class="card-actions justify-end hidden">
                   <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298868649/">Attend (Free)</a>
                 </div>
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
               <figure><img src="../assets/event-apr-asim-headshot.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Measuring Software Emissions with Impact Framework</h2>
@@ -91,36 +92,51 @@
                 <p>Tues 30th April 2024</p>
                 <p class="font-thin">
                 </p>
-                <div class="card-actions justify-end">
+                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=2hSfXnuIs90">Watch</a>
+                <div class="card-actions justify-end hidden">
                   <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298882475/">Attend (Free)</a>
                 </div>
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
               <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Exploring The Software Measurement Landscape - Session 1</h2>
-                <span class="font-thin">Workshop - Venue TBC</span>
+                <span class="font-thin">Workshop @ Runway East, Brighton</span>
                 <p>Weds 19th June 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton">Attend (Free)</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/301176132/">Attend (Free)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
+              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 2</h2>
+                <span class="font-thin">Workshop @ Runway East, Brighton</span>
+                <p>Tues 9th July 2024</p>
+                <p class="font-thin">
+                </p>
+                <div class="card-actions justify-end hidden">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/301176209/">Attend (Free)</a>
                 </div>
               </div>
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/Green-Software-Square.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 2</h2>
-                <span class="font-thin">Workshop - Venue TBC</span>
-                <p>Thurs 25th July 2024</p>
+                <h2 class="card-title">Designing For Digital Sustainability</h2>
+                <span class="font-thin">Panel @ Runway East, Brighton</span>
+                <p>Weds 18th September 2024</p>
                 <p class="font-thin">
                 </p>
-                <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton">Attend (Free)</a>
+                <div class="card-actions justify-end">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/">Check Meetup</a>
                 </div>
               </div>
             </div>
@@ -131,17 +147,11 @@
 
       <div class="col-span-2 md:col-span-1 card bg-base-100 shadow-xl">
         <div class="card-body">
-          <h1 class="card-title text-2xl md:text-3xl">Want to speak?</h1>
+          <h1 class="card-title text-2xl md:text-3xl">Get involved</h1>
           <div class="text-lg md:text-xl mt-4">
             <p class="mb-2">
               We welcome anybody who wants to get involved, speak at GSF Brighton or just have a chat with us.
             </p>
-
-            <div>
-              <a class="link link-primary inline" href="mailto:oli@rootandbranch.io">
-                oli@rootandbranch.io
-              </a>
-            </div>
             <div>
               <a class="link link-primary inline" href="mailto:adam@rootandbranch.io">
                 adam@rootandbranch.io
@@ -155,11 +165,6 @@
         <div class="card-body">
           <h1 class="card-title text-2xl md:text-3xl">Resources</h1>
           <ul class="text-lg md:text-xl mt-4">
-            <li class="mb-2">
-              <a class="link link-primary" target="_blank" href="https://greenseo.org/">
-                Green SEO (Brighton Community)
-              </a>
-            </li>
             <li class="mb-2">
               <a class="link link-primary" target="_blank" href="https://greensoftware.foundation">
                 Green Software Foundation
@@ -187,13 +192,38 @@
               </a>
             </li>
             <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://greenio.gaelduez.com/">
+                Green IO (Podcast)
+              </a>
+            </li>
+            <li class="mb-2">
               <a class="link link-primary" target="_blank" href="https://www.oreilly.com/library/view/building-green-software/9781098150617/">
                 Building Green Software (Book)
               </a>
             </li>
             <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://solar.lowtechmagazine.com/">
+                Low Tech Magazine (Solar powered)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://branch.climateaction.tech/">
+                Branch Magazine (Grid carbon intensity aware)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://greenseo.org/">
+                Green SEO (Community, Brighton)
+              </a>
+            </li>
+            <li class="mb-2">
               <a class="link link-primary" target="_blank" href="https://www.green-coding.berlin/">
-                Green Coding Berlin
+                Green Coding Berlin (Community, Germany)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://greentechsouthwest.org/">
+                Green Tech South West (Community, UK)
               </a>
             </li>
             <li class="mb-2">
