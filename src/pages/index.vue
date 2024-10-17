@@ -70,7 +70,7 @@
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/event-mar.webp" alt="event-feb-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/david-james-talk.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Open Source & Sustainability</h2>
                 <span class="font-thin">Speakers: David Rees & James Camilleri (Sustainable Tech Team, Scott Logic)</span>
@@ -127,12 +127,41 @@
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2  opacity-75">
               <figure><img src="../assets/Green-Software-Square.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Designing For Digital Sustainability</h2>
-                <span class="font-thin">Panel @ Runway East, Brighton</span>
+                <h2 class="card-title">Collaborating On Digital Sustainability</h2>
+                <span class="font-thin">Discussion with industry experts @ Runway East, Brighton</span>
                 <p>Weds 18th September 2024</p>
+                <p class="font-thin">
+                </p>
+                <div class="card-actions justify-end hidden">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/">Check Meetup</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
+              <figure><img src="../assets/GSB-Oct-CNCF_1200x1200.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Implementing Best Practices in Software Using the GSF Standards</h2>
+                <span class="font-thin">Speaker: Nour Rteil (Lead Application Developer, Techbuyer) @ Runway East, Brighton</span>
+                <p>Weds 16th October 2024</p>
+                <p class="font-thin">
+                </p>
+                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=mCFciR2aC_c">Watch</a>
+                <div class="card-actions justify-end hidden">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/303193268">Attend (Free)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+              <figure><img src="../assets/oli-talk.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Measuring Website Emissions With Cardamon</h2>
+                <span class="font-thin">Speaker: Oliver Winks (Co-Founder, Root & Branch) @ Runway East, Brighton</span>
+                <p>Weds 20th November 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end">
@@ -174,6 +203,8 @@
               <a class="link link-primary" target="_blank" href="https://www.thegreenwebfoundation.org">
                 Green Web Foundation
               </a>
+            </li>
+            <li class="mb-2">
             </li>
             <li class="mb-2">
               <a class="link link-primary" target="_blank" href="https://climateaction.tech">
@@ -231,6 +262,21 @@
                 SDIA - Sustainable Digital Infrastructure Alliance
               </a>
             </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://tag-env-sustainability.cncf.io/">
+                CNCF - TAG ENV (Cloud Native Environmental Sustainability)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://github.com/github/GreenSoftwareDirectory">
+                Green Software Directory (Software Measurement Tools)
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="link link-primary" target="_blank" href="https://web.cardamon.io/">
+                Cardamon (Website Measurement)
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -274,10 +320,6 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="col-span-2 card bg-base-100 shadow-xl" client-only>
-        <div id="wcb" class="carbonbadge wcb-d mx-auto py-8"></div>
       </div>
 
     </div>
