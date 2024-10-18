@@ -36,50 +36,79 @@
       <div class="col-span-2 card bg-base-100 shadow-xl">
         <div class="card-body">
           <h1 class="card-title text-2xl md:text-3xl">Events</h1>
-
+          <h2>Upcoming</h2>
+          <div class="max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
+                <figure><img src="../assets/oli-talk.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Measuring Website Emissions With Cardamon</h2>
+                  <span class="font-thin">Speaker: Oliver Winks (Co-Founder, Root & Branch) @ Runway East, Brighton</span>
+                  <p>Weds 20th November 2024</p>
+                  <p class="font-thin">
+                  </p>
+                  <div class="card-actions justify-end">
+                    <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/">Check Meetup</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <h2>Previous</h2>
+          
           <div class="max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/event-jan.webp" alt="event-jan-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/GSB-Oct-CNCF_1200x1200.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
-                <span class="font-thin">A roundtable discussion</span>
-                <p>Weds 24th January 2024</p>
+                <h2 class="card-title">Implementing Best Practices in Software Using the GSF Standards</h2>
+                <span class="font-thin">Speaker: Nour Rteil (Lead Application Developer, Techbuyer) @ Runway East, Brighton</span>
+                <p>Weds 16th October 2024</p>
+                <p class="font-thin">
+                </p>
+                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=mCFciR2aC_c">Watch</a>
+                <div class="card-actions justify-end hidden">
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/303193268">Attend (Free)</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2  opacity-75">
+              <figure><img src="../assets/Green-Software-Square.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <div class="card-body">
+                <h2 class="card-title">Collaborating On Digital Sustainability</h2>
+                <span class="font-thin">Discussion with industry experts @ Runway East, Brighton</span>
+                <p>Weds 18th September 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join
-                    Waitlist</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/">Check Meetup</a>
                 </div>
               </div>
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/event-feb.webp" alt="event-feb-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
-                <span class="font-thin">A roundtable discussion</span>
-                <p>Weds 7th February 2024</p>
+                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 2</h2>
+                <span class="font-thin">Workshop @ Runway East, Brighton</span>
+                <p>Tues 9th July 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join
-                    Waitlist</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/301176209/">Attend (Free)</a>
                 </div>
               </div>
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/david-james-talk.webp" alt="event-feb-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Open Source & Sustainability</h2>
-                <span class="font-thin">Speakers: David Rees & James Camilleri (Sustainable Tech Team, Scott Logic)</span>
-                <p>Weds 20th March 2024</p>
+                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 1</h2>
+                <span class="font-thin">Workshop @ Runway East, Brighton</span>
+                <p>Weds 19th June 2024</p>
                 <p class="font-thin">
                 </p>
-                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=HwB6wO97dr8">Watch</a>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298868649/">Attend (Free)</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/301176132/">Attend (Free)</a>
                 </div>
               </div>
             </div>
@@ -100,75 +129,53 @@
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/david-james-talk.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 1</h2>
-                <span class="font-thin">Workshop @ Runway East, Brighton</span>
-                <p>Weds 19th June 2024</p>
+                <h2 class="card-title">Open Source & Sustainability</h2>
+                <span class="font-thin">Speakers: David Rees & James Camilleri (Sustainable Tech Team, Scott Logic)</span>
+                <p>Weds 20th March 2024</p>
                 <p class="font-thin">
                 </p>
+                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=HwB6wO97dr8">Watch</a>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/301176132/">Attend (Free)</a>
+                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/298868649/">Attend (Free)</a>
                 </div>
               </div>
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/oli-workshop2-sqsm2.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-feb.webp" alt="event-feb-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Exploring The Software Measurement Landscape - Session 2</h2>
-                <span class="font-thin">Workshop @ Runway East, Brighton</span>
-                <p>Tues 9th July 2024</p>
+                <h2 class="card-title">The Environmental Impact Of AI - Part 2</h2>
+                <span class="font-thin">A roundtable discussion</span>
+                <p>Weds 7th February 2024</p>
                 <p class="font-thin">
                 </p>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/301176209/">Attend (Free)</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2  opacity-75">
-              <figure><img src="../assets/Green-Software-Square.webp" alt="event-apr-img" class="w-full h-full" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Collaborating On Digital Sustainability</h2>
-                <span class="font-thin">Discussion with industry experts @ Runway East, Brighton</span>
-                <p>Weds 18th September 2024</p>
-                <p class="font-thin">
-                </p>
-                <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/">Check Meetup</a>
+                  <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join
+                    Waitlist</a>
                 </div>
               </div>
             </div>
 
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2 opacity-75">
-              <figure><img src="../assets/GSB-Oct-CNCF_1200x1200.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-jan.webp" alt="event-jan-img" class="w-full h-full" /></figure>
               <div class="card-body">
-                <h2 class="card-title">Implementing Best Practices in Software Using the GSF Standards</h2>
-                <span class="font-thin">Speaker: Nour Rteil (Lead Application Developer, Techbuyer) @ Runway East, Brighton</span>
-                <p>Weds 16th October 2024</p>
+                <h2 class="card-title">The Environmental Impact Of AI - Part 1</h2>
+                <span class="font-thin">A roundtable discussion</span>
+                <p>Weds 24th January 2024</p>
                 <p class="font-thin">
                 </p>
-                <a class="button-green" target="_blank" href="https://www.youtube.com/watch?v=mCFciR2aC_c">Watch</a>
                 <div class="card-actions justify-end hidden">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/events/303193268">Attend (Free)</a>
+                  <a class="button-gray" target="_blank" href="https://www.meetup.com/gsf-brighton/events/297235250/">Join
+                    Waitlist</a>
                 </div>
               </div>
             </div>
 
-            <div class="md:col-span-1 card bg-base-100 shadow-xl m-2">
-              <figure><img src="../assets/oli-talk.webp" alt="event-apr-img" class="w-full h-full" /></figure>
-              <div class="card-body">
-                <h2 class="card-title">Measuring Website Emissions With Cardamon</h2>
-                <span class="font-thin">Speaker: Oliver Winks (Co-Founder, Root & Branch) @ Runway East, Brighton</span>
-                <p>Weds 20th November 2024</p>
-                <p class="font-thin">
-                </p>
-                <div class="card-actions justify-end">
-                  <a class="button-green" target="_blank" href="https://www.meetup.com/gsf-brighton/">Check Meetup</a>
-                </div>
-              </div>
-            </div>
+            
+
+            
 
           </div>
         </div>
