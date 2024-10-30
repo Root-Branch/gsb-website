@@ -72,7 +72,7 @@
             </div>
             
             <div class="md:col-span-1 card bg-base-100 shadow-xl m-2  opacity-75">
-              <figure><img src="../assets/Green-Software-Square.webp" alt="event-apr-img" class="w-full h-full" /></figure>
+              <figure><img src="../assets/event-sep.webp" alt="event-apr-img" class="w-full h-full" /></figure>
               <div class="card-body">
                 <h2 class="card-title">Collaborating On Digital Sustainability</h2>
                 <span class="font-thin">Discussion with industry experts @ Runway East, Brighton</span>
